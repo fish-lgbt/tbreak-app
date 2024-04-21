@@ -168,6 +168,7 @@ const User = async ({ username, followers }: UserProps) => {
 	const tooltip = t.rich('pages.home.user.tooltip', {
 		username,
 		followers,
+		ScaledNumber: (children) => <ScaledNumber>{children}</ScaledNumber>,
 	});
 
 	return (

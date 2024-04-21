@@ -14,7 +14,7 @@
 			"total-following": "Total following: <ScaledNumber>{following}</ScaledNumber>",
 			"total-tweets": "Total tweets: <ScaledNumber>{tweets}</ScaledNumber>",
 			"user": {
-				"tooltip": "{username} gained {followers, plural, =0 {no followers yet} =1 {one follower} other {# followers}} in the last 24 hours."
+				"tooltip": "{username} gained <ScaledNumber>{followers} in the last 24 hours.</ScaledNumber>"
 			}
 		}
 	},
