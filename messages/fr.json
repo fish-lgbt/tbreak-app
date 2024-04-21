@@ -1,7 +1,24 @@
 {
 	"common": {
+		"users": "Utilisateurs",
+		"info": "Informations",
 		"followers": "Abonnés",
 		"following": "Abonnements",
-		"tweets": "Posts"
+		"tweets": "Posts",
+		"loading-indicator": "Chargement..."
+	},
+	"pages": {
+		"home": {
+			"total-users": "Utilisateurs totaux : <ScaledNumber>{users}</ScaledNumber>",
+			"total-followers": "Abonnés totaux: <ScaledNumber>{followers}</ScaledNumber>",
+			"total-following": "Abonnements totaux: <ScaledNumber>{following}</ScaledNumber>",
+			"total-tweets": "Posts totaux : <ScaledNumber>{tweets}</ScaledNumber>",
+			"user": {
+				"tooltip": "{username} a gagné <ScaledNumber>{followers}</ScaledNumber> dans les dernières 24 heures"
+			}
+		}
+	},
+	"errors": {
+		"fetching-failed": "La récupération des données a échoué. Veuillez réessayer plus tard."
 	}
 }
