@@ -1,0 +1,24 @@
+{
+	"common": {
+		"users": "users",
+		"info": "info",
+		"followers": "followers",
+		"following": "following",
+		"tweets": "tweets",
+		"loading-indicator": "loading..."
+	},
+	"pages": {
+		"home": {
+			"total-users": "Total users: <ScaledNumber>{users}</ScaledNumber>",
+			"total-followers": "Total followers: <ScaledNumber>{followers}</ScaledNumber>",
+			"total-following": "Total following: <ScaledNumber>{following}</ScaledNumber>",
+			"total-tweets": "Total tweets: <ScaledNumber>{tweets}</ScaledNumber>",
+			"user": {
+				"tooltip": "{username} gained {followers, plural, =0 {no followers yet} =1 {one follower} other {# followers}} in the last 24 hours."
+			}
+		}
+	},
+	"errors": {
+		"fetching-failed": "Fetching data failed. Please try again later."
+	}
+}
