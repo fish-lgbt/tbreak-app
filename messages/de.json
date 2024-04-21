@@ -1,7 +1,24 @@
 {
 	"common": {
+		"users": "Benutzer",
+		"info": "Info",
 		"followers": "Gefolgt von",
 		"following": "Folge ich",
-		"tweets": "Beiträge"
+		"tweets": "Beiträge",
+		"loading-indicator": "Lade..."
+	},
+	"pages": {
+		"home": {
+			"total-users": "Gesamte Benutzer: <ScaledNumber>{users}</ScaledNumber>",
+			"total-followers": "Gesamte Follower: <ScaledNumber>{followers}</ScaledNumber>",
+			"total-following": "Gesamt folgend: <ScaledNumber>{following}</ScaledNumber>",
+			"total-tweets": "Gesamte Beiträge: <ScaledNumber>{tweets}</ScaledNumber>",
+			"user": {
+				"tooltip": "{username} hat <ScaledNumber>{followers}</ScaledNumber> in den letzten 24 Stunden gewonnen."
+			}
+		}
+	},
+	"errors": {
+		"fetching-failed": "Daten konnten nicht geladen werden. Bitte versuche es später nochmal."
 	}
 }
